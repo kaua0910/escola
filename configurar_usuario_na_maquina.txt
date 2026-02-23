@@ -1,0 +1,19 @@
+echo OFF
+
+echo --- Retirando Usuario GitHUB ----
+
+git config --global --unset-all user.email
+git config --global --unset-all user.name
+
+echo --- Configurando Usuario GitHUB ----
+
+git config --global user.name "Davi Vilar"
+git config --global user.email davivilar@gmail.com
+echo --- Mostrando a configuração atual do Github no computador
+
+git config --list
+
+https://www.youtube.com/watch?v=2c7yWlpWDJM&list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU
+
+
+pause
